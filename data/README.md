@@ -10,13 +10,13 @@ $ cd Seq2SeqProject/data
 $ ./setup_local_env.sh
 ```
 
-which will first clone this repository under `~/codes/dl4mt-tutorial`
+which will first clone this repository under `~/codes/Seq2SeqProject`
 and then calls the `setup_local_env.sh` script to retrieve example data,
 and preprocesses it.
 
 #### Pre-processing
 Following steps are executed by `setup_local_env.sh`:
- 1. Clone `dl4mt-tutorial` repository (if not cloned already)
+ 1. Clone `Seq2SeqProject` repository (if not cloned already)
  2. Download `europarl-v7.fr-en` (training) and `newstest2011` (development)
  3. Preprocess training and development sets
    * Tokenize using moses tokenizer
@@ -29,7 +29,7 @@ If you want to use subword-units (eg. [Byte Pair Encoding](https://github.com/rs
 $ ./setup_local_env.sh -b
 ```
 which will replace the third step above, and execute the following steps:
- 1. Clone `dl4mt-tutorial` repository (if not cloned already)
+ 1. Clone `Seq2SeqProject` repository (if not cloned already)
  2. Download `europarl-v7.fr-en` (training) and `newstest2011` (development)
  3. Preprocess training and development sets (`preprocess.sh`)
    * Tokenize source and target side of all bitext
