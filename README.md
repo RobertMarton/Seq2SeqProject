@@ -1,4 +1,4 @@
-# Seq2SeqProject
+# Seq2SeqAttentionProject
 Data:
 Data pre-processing related scripts and utilities.
 
