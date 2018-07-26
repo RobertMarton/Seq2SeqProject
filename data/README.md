@@ -5,7 +5,7 @@ Easiest way to setup your environment:
 
 ```bash
 $ cd ~; mkdir codes; cd codes
-$ git clone https://github.com/nyu-dl/Seq2SeqProject
+$ git clone https://github.com/RobertMarton/Seq2SeqProject
 $ cd Seq2SeqProject/data
 $ ./setup_local_env.sh
 ```
